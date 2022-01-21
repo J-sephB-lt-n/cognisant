@@ -5,5 +5,8 @@
 ## Example Usage
 
 ```
-from cognisant import .
+import cognisant
+import numpy as np
+
+analysis_obj = cognisant.analysis_engine()
 ```
