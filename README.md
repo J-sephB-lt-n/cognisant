@@ -4,4 +4,6 @@
 
 ## Example Usage
 
-
+```
+from cognisant import .
+```
