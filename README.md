@@ -8,5 +8,7 @@
 import cognisant
 import numpy as np
 
-analysis_obj = cognisant.analysis_engine()
+analysis_obj = cognisant.cross_sectional_analysis_engine()
+
+time_analysis_obj = cognisant.time_series_analysis_engine()
 ```
