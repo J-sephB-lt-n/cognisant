@@ -7,5 +7,6 @@ class time_series_analysis_engine():
                 self
             ):
         pass
+        # define self.available_tests list based on the types of data available
 
 
