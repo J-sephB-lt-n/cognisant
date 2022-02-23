@@ -1,6 +1,6 @@
 # Cognisant
 
-**Cognisant** is an integrated suite of python tools for automated data analysis.
+**Cognisant** generates data insights using randomness.
 
 ## Example Usage
 
@@ -10,6 +10,11 @@ import numpy as np
 
 analysis_obj = cognisant.analysis_engine()
 
+import pandas as pd
+ozone_dataset = pd.read_csv(    # https://archive.ics.uci.edu/ml/datasets/Ozone+Level+Detection 
+        "https://archive.ics.uci.edu/ml/machine-learning-databases/ozone/onehr.data"
+    ,   
+)
 analysis_obj.load_dataset(
 							data = {
 									"day":{

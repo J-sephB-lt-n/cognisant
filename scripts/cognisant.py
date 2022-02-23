@@ -1,5 +1,6 @@
 
 class analysis_engine():
+    # TODO: implement grouping variables as a type of variable
     def __init__(self):
         self.test_history = []          # each time a test is done, the result is appended to this list
         self.available_tests = {
